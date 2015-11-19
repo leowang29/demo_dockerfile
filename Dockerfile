@@ -3,6 +3,7 @@
 FROM hello-world
 WORKDIR /opt
 COPY testdemo.txt WORKDIR
+COPY testdemo2.txt WORKDIR
 
 #RUN mkdir demo_dockerfile
 #RUN echo demo first dockerfile
